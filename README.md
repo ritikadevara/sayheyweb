@@ -1,6 +1,6 @@
 # Say Hey! website
 
-A plain HTML/CSS/JS site. No build step, no framework, no dependencies.
+tanks claude for helping me make a website. theres lit like three files here to make website for say hey. 
 
 ```
 index.html      ← all the page content
@@ -22,12 +22,6 @@ Search `index.html` for `TODO`:
 - **Email**: replace `hello@example.com` (a free Gmail like sayheydc@gmail.com is fine for now)
 - **Instagram**: replace `https://instagram.com/` with your handle
 
-## Publish for free with GitHub Pages
-1. Make a GitHub account and create a public repo, e.g. `sayhey`.
-2. Upload the contents of this folder (Add file → Upload files, drag everything in, commit).
-   Or: `git init && git add . && git commit -m "first site" && git remote add origin <url> && git push -u origin main`
-3. Repo → **Settings → Pages** → Source: *Deploy from a branch* → `main` / `(root)` → Save.
-4. In about a minute it's live at `https://<username>.github.io/sayhey/`.
 
 To update it later: edit, commit, push. It redeploys on its own.
 
