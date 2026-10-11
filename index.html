@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Say Hey! · Open to Chat</title>
+  <meta name="description" content="Say Hey! is a little pin that says you're open to chat. A student-led project in Washington, DC making everyday conversations a little easier.">
+
+  <!-- Social share preview (shows up when you paste the link in iMessage, Instagram DMs, etc.) -->
+  <meta property="og:title" content="Say Hey! · Open to Chat">
+  <meta property="og:description" content="What if your next best friend is sitting right next to you?">
+  <meta property="og:image" content="images/pins.jpg">
+
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Pacifico&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#top" class="brand"><img src="images/logo.png" alt="Say Hey! Open to Chat logo"></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <nav class="nav">
+        <a href="#why">Why</a>
+        <a href="#how">How it works</a>
+        <a href="#spotted">Spotted</a>
+        <a href="#story">Our story</a>
+        <a href="#join" class="nav-cta">Get involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-overlay"></div>
+    <div class="wrap hero-inner">
+      <p class="hero-kicker">Hello, Washington DC!</p>
+      <h1>What if your next best friend is sitting <span class="hl">right next to you?</span></h1>
+      <p class="hero-sub">Say Hey! is a little pin that says <em>“I'm open to chat.”</em> Wear one, spot one, and say hey.</p>
+      <div class="hero-buttons">
+        <a href="#how" class="btn btn-yellow">How it works</a>
+        <a href="#join" class="btn btn-ghost">Become a Connector</a>
+      </div>
+    </div>
+    <a href="#why" class="scroll-hint" aria-label="Scroll down">&#8964;</a>
+  </section>
+
+  <!-- ============ WHY ============ -->
+  <section class="section paper" id="why">
+    <div class="wrap">
+      <h2 class="ribbon"><span>Why we exist</span></h2>
+      <div class="why-grid">
+        <div class="why-text">
+          <p class="lead">Gen Z has been called the <strong>“loneliest generation.”</strong> In 2023 the U.S. Surgeon General named loneliness a public health epidemic.</p>
+          <p>Loneliness doesn't just feel bad. It's been linked to heart disease, dementia, anxiety and more. And with fewer third spaces and more of our social lives on screens, the small, warm moments that used to pull strangers into conversation are getting rarer.</p>
+          <p>We're medical students. We think a lot about health, and we think connection is part of it. So we made something small, cheap and analog: <strong>a pin that makes saying hey a little less awkward.</strong> No app. No profile. No algorithm.</p>
+        </div>
+        <img class="why-art" src="images/walkers.png" alt="Two hand-drawn figures walking toward each other to say hi">
+      </div>
+
+      <div class="stats">
+        <div class="stat"><span class="stat-num">67–73%</span><span class="stat-label">of Gen Z report feeling isolated</span></div>
+        <div class="stat"><span class="stat-num">100+</span><span class="stat-label">pins handed out so far</span></div>
+        <div class="stat"><span class="stat-num">$0</span><span class="stat-label">apps required. Ever.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <h2 class="ribbon"><span>How it works</span></h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-circle"><img src="images/pin-hand.jpg" alt="A hand holding a Say Hey! pin"></div>
+          <span class="step-num">1</span>
+          <h3>Grab a pin</h3>
+          <p>Find us at campus tabling events around DC, or become a Connector and we'll get one to you.</p>
+        </div>
+        <div class="step">
+          <div class="step-circle"><img src="images/pin-tote.jpg" alt="A Say Hey! pin on a tote bag strap"></div>
+          <span class="step-num">2</span>
+          <h3>Wear it</h3>
+          <p>Bag, jacket, backpack strap, lanyard. Anywhere people can see it on the metro, in line for coffee, or in the elevator.</p>
+        </div>
+        <div class="step">
+          <div class="step-circle"><img src="images/trio.png" alt="Three hand-drawn friends with arms around each other"></div>
+          <span class="step-num">3</span>
+          <h3>Say hey!</h3>
+          <p>See someone wearing one? They're open to chat. Say hi, ask about their day, compliment their tote. That's it.</p>
+        </div>
+      </div>
+
+      <div class="guidelines stitched">
+        <h3>The (very short) rulebook</h3>
+        <ul>
+          <li><strong>It's an invitation, not an obligation.</strong> Anyone can say “not right now,” and that's okay.</li>
+          <li><strong>Keep it kind and keep it light.</strong> Start with the small stuff.</li>
+          <li><strong>Respect the vibe.</strong> Headphones in, rushing to class? Try again another time.</li>
+          <li><strong>Pass it on.</strong> Made a friend? Get them a pin.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONVERSATION STARTER ============ -->
+  <section class="starter-band">
+    <div class="wrap starter-inner">
+      <div>
+        <p class="script">Not sure what to say?</p>
+        <p class="starter-text" id="starter">“What's the best thing you've eaten this week?”</p>
+      </div>
+      <button class="btn btn-dark" id="starter-btn">Give me another!</button>
+    </div>
+  </section>
+
+  <!-- ============ SPOTTED ============ -->
+  <section class="section paper" id="spotted">
+    <div class="wrap">
+      <h2 class="ribbon"><span>Spotted around DC</span></h2>
+      <p class="center intro">Pins in the wild. Tag us on Instagram with <strong>#SayHeyDC</strong> and you might end up here.</p>
+      <div class="polaroids">
+        <figure class="polaroid tape-pink"><img src="images/pin-bag.jpg" alt="Pin on a black handbag"><figcaption>on the way to class</figcaption></figure>
+        <figure class="polaroid tape-mint"><img src="images/pin-stripes.jpg" alt="Pin on a striped shirt"><figcaption>stripes + pins</figcaption></figure>
+        <figure class="polaroid tape-yellow"><img src="images/pin-white.jpg" alt="Pin on a white purse"><figcaption>fuzzy & friendly</figcaption></figure>
+        <figure class="polaroid tape-mint"><img src="images/pin-gray.jpg" alt="Pin on a gray bag in a library"><figcaption>library hours</figcaption></figure>
+        <figure class="polaroid tape-yellow"><img src="images/pin-black.jpg" alt="Pin on a black leather bag"><figcaption>metro ready</figcaption></figure>
+        <figure class="polaroid tape-pink"><img src="images/pin-hand.jpg" alt="Pin held in a hand"><figcaption>fresh off the press</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUR STORY ============ -->
+  <section class="section" id="story">
+    <div class="wrap">
+      <h2 class="ribbon"><span>Our story</span></h2>
+      <div class="story-grid">
+        <div class="story-photos">
+          <figure class="polaroid big tilt-left tape-yellow"><img src="images/team-group.jpg" alt="The Say Hey! team tabling at the McDonough School of Business"><figcaption>Say Hey! x MSB tabling day</figcaption></figure>
+          <figure class="polaroid small tilt-right tape-mint"><img src="images/team-selfie.jpg" alt="Say Hey! team selfie"><figcaption>the crew ♥</figcaption></figure>
+        </div>
+        <div class="story-text">
+          <p class="lead">We're three medical students in Washington, DC who believe connection is health care too.</p>
+          <p>Say Hey! started with a logo sketched on an iPad and a box of homemade button pins. We started wearing them around campus, and people started asking what they meant. That was the whole point.</p>
+          <p>Since then we've handed out 100+ pins, tabled at Georgetown's McDonough School of Business, and launched our first <strong>Ambassador cohort</strong>: students who wear the pins and check in with us over ten weeks so we can learn whether a tiny pin really means more conversations and less loneliness.</p>
+          <div class="team">
+            <div class="member"><h4>Abigail</h4><p>Former nonprofit program manager. Ran a hotline, volunteers and events.</p></div>
+            <div class="member"><h4>Ritika</h4><p>Artist behind the logo. Helped launch a clothing line and big community events.</p></div>
+            <div class="member"><h4>Cindy</h4><p>Former startup COO. Has interviewed 100+ physicians about what they actually need.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item done"><span class="tl-dot"></span><h4>Pins on campus</h4><p>First batch made and worn around Georgetown</p></div>
+        <div class="tl-item done"><span class="tl-dot"></span><h4>Say Hey! x MSB</h4><p>Tabling at the McDonough School of Business</p></div>
+        <div class="tl-item now"><span class="tl-dot"></span><h4>Ambassador program</h4><p>Our first cohort is wearing pins and tracking conversations</p></div>
+        <div class="tl-item"><span class="tl-dot"></span><h4>Coffee shops</h4><p>Pins at the counter along Wisconsin Ave</p></div>
+        <div class="tl-item"><span class="tl-dot"></span><h4>Starter kits</h4><p>Launch a Say Hey! chapter at your school or city</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GET INVOLVED ============ -->
+  <section class="section join" id="join">
+    <div class="wrap">
+      <h2 class="ribbon ribbon-dark"><span>Get involved</span></h2>
+      <div class="join-cards">
+        <div class="join-card stitched">
+          <img src="images/logo.png" alt="" class="join-icon">
+          <h3>Become a Connector</h3>
+          <p>Wear a pin, spread the word, and help us build a city where saying hey is normal.</p>
+          <!-- TODO: replace # with your Google Form / Tally / Airtable sign-up link -->
+          <a href="#" class="btn btn-dark">Sign me up</a>
+        </div>
+        <div class="join-card stitched">
+          <span class="join-emoji">☕</span>
+          <h3>Own a café or shop?</h3>
+          <p>We're looking for DC spots to keep a little bowl of pins by the register. It costs you nothing.</p>
+          <!-- TODO: replace with your team email -->
+          <a href="mailto:hello@example.com?subject=Say%20Hey!%20partnership" class="btn btn-dark">Let's talk</a>
+        </div>
+        <div class="join-card stitched">
+          <span class="join-emoji">🎓</span>
+          <h3>Bring it to your campus</h3>
+          <p>Want Say Hey! at your school or in your club? Tell us and you'll be first in line for a starter kit.</p>
+          <a href="mailto:hello@example.com?subject=Say%20Hey!%20on%20my%20campus" class="btn btn-dark">Email us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <img src="images/logo.png" alt="Say Hey!" class="footer-logo">
+        <p>A student-led project in Washington, DC.<br>Made with ♥ by future doctors.</p>
+      </div>
+      <div class="socials">
+        <!-- TODO: replace with your real handle -->
+        <a href="https://instagram.com/" class="social" aria-label="Instagram">IG</a>
+        <a href="mailto:hello@example.com" class="social" aria-label="Email">@</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year">2026</span> Say Hey! · Open to Chat</p>
+  </footer>
+
+  <a href="#top" class="back-to-top" aria-label="Back to top">&#8593;</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
