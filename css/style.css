@@ -217,7 +217,7 @@ a { color: inherit; }
 .tape-mint::before { background-color: var(--mint); }
 .tape-yellow::before { background-color: var(--yellow); }
 
-/* ---------- Story ---------- */
+/* ---------- Story ---------- 
 .story-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: start; }
 .story-photos { position: relative; padding-bottom: 170px; }
 .story-photos .big { width: 88%; }
@@ -240,6 +240,8 @@ a { color: inherit; }
 @keyframes pulse { 50% { box-shadow: 0 0 0 12px rgba(255,206,69,0); } }
 .tl-item h4 { margin: 0 0 4px; font-weight: 900; }
 .tl-item p { margin: 0; font-size: 15px; color: var(--muted); line-height: 1.45; }
+
+*/
 
 /* ---------- Join ---------- */
 .join { background: var(--yellow); }
